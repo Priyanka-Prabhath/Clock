@@ -21,13 +21,14 @@ This project is a Python-based analog clock application built using the `tkinter
 1. Clone the repository or download the source code.
 2. Ensure you have Python 3.9 or later installed.
 3. Install the required dependencies:
-   ```bash
+   ```
    pip install tzlocal
+   ```
 
 ## Usage
 
 1. Run the Python script to launch the clock interface:
-    ```bash
+    ```
     python main.py
     ```
 2. The application window will open, displaying the analog clock.
