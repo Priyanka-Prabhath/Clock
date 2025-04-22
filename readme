@@ -1,32 +1,37 @@
 # Simple Clock Interface
 
-This is a simple Python project that creates a clock interface using Python and its libraries. The clock displays the current time and updates in real-time.
+This project is a Python-based analog clock application built using the `tkinter` library. The clock displays the current time in an analog format and allows users to select different timezones.
 
 ## Features
 
-- Displays the current time in hours, minutes, and seconds.
-- Updates the time dynamically.
-- Simple and clean user interface.
+- **Analog Clock**: Displays the current time with hour, minute, and second hands.
+- **Timezone Selection**: Choose from a list of common timezones to update the clock's time.
+- **Digital AM/PM Indicator**: Displays whether the current time is AM or PM.
+- **Dynamic Updates**: The clock updates every second.
 
 ## Requirements
 
 - Python 3.x
-- `tkinter` (usually included with Python)
-- Optionally, you can use `pip` to install any additional dependencies if needed.
+- The following Python libraries:
+  - `tkinter` (comes pre-installed with Python)
+  - `tzlocal` (installable via pip)
 
 ## Installation
 
-1. Clone this repository or download the project files.
-2. Ensure you have Python 3.x installed on your system.
-3. Install any required libraries (if applicable).
+1. Clone the repository or download the source code.
+2. Ensure you have Python 3.9 or later installed.
+3. Install the required dependencies:
+   ```bash
+   pip install tzlocal
 
 ## Usage
 
 1. Run the Python script to launch the clock interface:
     ```bash
-    python clock.py
+    python main.py
     ```
-2. The clock interface will appear, displaying the current time.
+2. The application window will open, displaying the analog clock.
+3. Use the dropdown menu to select a timezone. The clock will update to reflect the selected timezone.
 
 ## Project Structure
 
