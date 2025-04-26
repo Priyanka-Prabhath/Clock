@@ -22,6 +22,7 @@ This project is a Python-based analog clock application built using the `tkinter
 2. Ensure you have Python 3.9 or later installed.
 3. Install the required dependencies:
    ```
+   pip install tzdata
    pip install tzlocal
    ```
 
