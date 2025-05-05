@@ -2,12 +2,6 @@
 
 This project contains a JavaScript implementation of an analog clock. The clock displays the current time and updates dynamically.
 
-## Features
-
-- Displays the current time in `HH:MM:SS` format.
-- Updates every second.
-- Lightweight and easy to integrate into any web page.
-
 ## Folder Structure
 
 ```
